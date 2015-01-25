@@ -7,7 +7,7 @@ import factory.design.pattern.example1.LoggerFactory;
 import builder.design.pattern.example1.User.UserBuilder;
 
 public class BuilderTest {
-	private Logger log = LoggerFactory.getlogger();;
+	private Logger log = LoggerFactory.getlogger();
 	
 	@Test
 	public void testUserbuild1(){
