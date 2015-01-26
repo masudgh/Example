@@ -1,7 +1,6 @@
 package treemap.hashmap.linkedhashmap.examples.example1;
 
 import java.util.Comparator;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
@@ -40,6 +39,7 @@ public class TreeMapImp  {
 		return tm.lastKey();
 	}
 	public void print(){
+		 System.out.println("TreeMap impementation....");
 		for (Entry<Message, Integer> entry : tm.entrySet()) {
 		    Message key = entry.getKey();
 		    Integer value = entry.getValue();
